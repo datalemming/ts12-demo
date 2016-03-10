@@ -1,0 +1,12 @@
+1392249600000
+1392854400000
+
+select count(*)  from aarhus2 where ts > 1392249600000 and ts < 1392854400000 and status='OK' and extid='668';
+
+select *  from aarhus2 where ts > 1392249600000 and ts < 1392854400000 and status='OK' and extid='668';
+
+select max(avgSpeed)  from aarhus2 where ts > 1392249600000 and ts < 1392854400000 and status='OK' and extid='668';
+
+select min(avgSpeed)  from aarhus2 where ts > 1392249600000 and ts < 1392854400000 and status='OK' and extid='668';
+
+select max(vehicleCount) from aarhus2 where ts > 1392249600000 and ts < 1392854400000 and status='OK' and extid='668';
